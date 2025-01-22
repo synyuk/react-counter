@@ -1,6 +1,6 @@
 import "./Counter.css"
 import {useState} from "react";
-const val = ["asdads",2,3,4,5,6,7,8,9];
+//const val = ["asdads",2,3,4,5,6,7,8,9];
 
 function Counter(props) {
     const [count, setCount] = useState(0);

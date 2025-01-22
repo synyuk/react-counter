@@ -5,17 +5,17 @@ import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
 
-const test = "test";//React-элементы — мельчайшие кирпичики React-приложений — это простые объекты
+//const test = "test";//React-элементы — мельчайшие кирпичики React-приложений — это простые объекты
 
-function HelloAll() {
-    return (
-        <div>
-            <Hello phrase="asdsdsa" name="Andrey" />;
-            <Hello phrase="asdsdsa" name="Andrey" />;
-            <Hello phrase="asdsdsa" name="Andrey" />;
-        </div>
-    )
-}
+// function HelloAll() {
+//     return (
+//         <div>
+//             <Hello phrase="asdsdsa" name="Andrey" />;
+//             <Hello phrase="asdsdsa" name="Andrey" />;
+//             <Hello phrase="asdsdsa" name="Andrey" />;
+//         </div>
+//     )
+// }
 
 class AppNew extends React.Component {
     render() {
