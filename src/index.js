@@ -31,7 +31,7 @@ const element = <Hello phrase="asdsdsa" name="Andrey" />;
 function Hello(props) {
     return (
         // <h1>Hello {test} {2+2} {props.phrase}! My name {props.name}</h1>
-        <h1>Easy React Counter!2</h1>
+        <h1>Easy React Counter!7777</h1>
     )
 }
 
