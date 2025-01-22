@@ -1,0 +1,26 @@
+.counter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.counter-wrapper button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: calc(10px + 2vmin);
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    padding: 0 5px;
+}
+.counter-wrapper .buttonReset{
+    width: max-content;
+    font-size: 14px;
+    margin-left: 10px;
+}
