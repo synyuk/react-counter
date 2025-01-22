@@ -3,7 +3,7 @@ name: Deploy React to GitHub Pages
 on:
   push:
     branches:
-      - "main"
+      - "gh-pages"
 
 permissions:
   contents: read
@@ -27,5 +27,5 @@ jobs:
     - name: Deploy 🚀 to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: main 
+        branch: gh-pages 
         folder: build
