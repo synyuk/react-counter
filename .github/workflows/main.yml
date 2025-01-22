@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: build-publish
-      uses: synyuk/react-counter
+      uses: synyuk/react-counter@v1
       with:
         path: src # change to your build folder
