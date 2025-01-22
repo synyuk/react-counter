@@ -3,17 +3,17 @@ import {useState} from "react";
 //const val = ["asdads",2,3,4,5,6,7,8,9];
 
 function Counter(props) {
-    const [count, setCount] = useState(0);
+    const [count, setCounter] = useState(0);
 
     function IncremetCounter() {
-        setCount(count + 1);
+        setCounter(count + 1);
     }
     function DecrementCounter() {
-        setCount(count - 1);
+        setCounter(count - 1);
     }
 
     function resetCounter() {
-        setCount(0);
+        setCounter(0);
     }
 
     return (
