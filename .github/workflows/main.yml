@@ -3,7 +3,7 @@ name: Deploy React to GitHub Pages
 on:
   push:
     branches:
-      - "main"  # Замените на вашу рабочую ветку, если она отличается
+      - "main"
 
 permissions:
   contents: read
@@ -15,21 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    # Шаг 1: Клонируем код из репозитория
     - name: Checkout code
       uses: actions/checkout@v2
     
-    # Шаг 2: Устанавливаем зависимости
     - name: Install Dependencies
-      run: npm ci  # Используем npm ci для быстрого и чистого восстановления зависимостей
+      run: npm ci
     
-    # Шаг 3: Строим приложение
     - name: Build the app
       run: npm run build
     
-    # Шаг 4: Деплой на GitHub Pages
     - name: Deploy 🚀 to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages  # Ветка для деплоя
-        folder: build     # Папка, куда будет собираться приложение
+        branch: main 
+        folder: build
