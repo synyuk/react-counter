@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-counter/static/css/main.58342da6.css",
-    "main.js": "/react-counter/static/js/main.e397ca00.js",
+    "main.js": "/react-counter/static/js/main.dd3db3f0.js",
     "index.html": "/react-counter/index.html",
     "main.58342da6.css.map": "/react-counter/static/css/main.58342da6.css.map",
-    "main.e397ca00.js.map": "/react-counter/static/js/main.e397ca00.js.map"
+    "main.dd3db3f0.js.map": "/react-counter/static/js/main.dd3db3f0.js.map"
   },
   "entrypoints": [
     "static/css/main.58342da6.css",
-    "static/js/main.e397ca00.js"
+    "static/js/main.dd3db3f0.js"
   ]
 }
